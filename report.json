@@ -1,0 +1,1229 @@
+{
+  "timestamp": "2025-02-16T18:15:12.111Z",
+  "results": [
+    {
+      "url": "https://www.flipkart.com/",
+      "elements": {
+        "forms": 1,
+        "buttons": 6,
+        "links": 385
+      },
+      "apiResults": [
+        {
+          "url": "https://www.flipkart.com/",
+          "method": "GET",
+          "headers": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/CrossCommon.3d2145.css",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/DesktopComponents.fbd6d4.css",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/rewards-fbd212.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/notificationPreferences-cfffaf.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-298691.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/downloadApp-2ea657.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/7f3cde58a30f6024.jpg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/7f3cde58a30f6024.jpg?q=20",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/d9290fb51138d286.png?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/d9290fb51138d286.png?q=20",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/530/810/image/ec9bba198c534edb.jpg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/530/810/image/ec9bba198c534edb.jpg?q=20",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fkvendor.6a94c6.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/app.69a356.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/CrossCommon.72c0af.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/DesktopComponents.702236.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/6bd45e710ff59835.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/6bd45e710ff59835.jpeg?q=20",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/l58iaa80/headphone/k/z/m/nord-buds-ce-oneplus-original-imagfyk4hyvgg6ze.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/kz1lle80/smartwatch/m/f/q/-original-imagb54tb6fpurze.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/l4x2rgw0/monitor/n/y/y/q24i-20-full-hd-23-8-66eegac3in-lenovo-original-imagfpgxzsk8ef26.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/xif0q/printer/s/8/d/-original-imafkykednshkhx5.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/jwzabgw0/trimmer/y/4/r/sensitive-touch-expert-veet-original-imafhjh5ah7vf9zc.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/kl9rssw0/monitor/y/c/2/proart-display-pa278qv-27-pa278qv-asus-original-imagyfpfyzwgdygs.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/xif0q/smartwatch/x/l/3/-original-imahy7fh7nbgud85.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/xif0q/monitor/e/4/d/-original-imah45n3zhfgjgm3.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/l58iaa80/electric-cycle/i/y/f/-original-imagfykthgudy4qz.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/acoustic-guitar/e/y/y/dd-380c-blk-jixing-original-imaeff94e9tczafp.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/kdj4xow0/treadmill/b/g/c/ft098-steel-motorized-ft98-steel-motorized-motorized-fitkit-original-imafuerskytashcz.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/120/120/kl5hh8w0/puzzle/g/n/g/60-wooden-earth-jigsaw-puzzle-60-pcs-webby-original-imagyc8hsdztzdzb.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/210/210/xif0q/smartwatch/g/k/p/49-t800-ultra-special-edition-smartwatch-with-bluetooth-calling-original-imah5yk2xxnjmgbt.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/210/210/xif0q/earring/6/h/3/-original-imah4c8tstmfnfkg.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/210/210/xif0q/shirt/a/o/h/xxl-box01-jackbella-original-imah8nrbtup5pdab.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/image/210/210/xif0q/ethnic-set/a/s/i/m-s-f125-siyafabkurti-original-imah5tq5hdjgh8mq.jpeg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/omniv31-1.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/en-js.fe9039.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/commonLazyLoadChunk.8f39a4.css",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/commonLazyLoadChunk.71e637.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/MultiWidgetpage.0f58b2.css",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/MultiWidgetpage.e1493a.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/OVHomePageTS.c0cbe8.css",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/OVHomePageTS.8d3393.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://dpm.demdex.net/id?d_visid_ver=1.5.4&d_rtbd=json&d_ver=2&d_orgid=17EB401053DAF4840A490D4C%40AdobeOrg&d_nsid=0&d_cb=s_c_il%5B0%5D._setMarketingCloudFields",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://flipkart.d1.sc.omtrdc.net/id?d_visid_ver=1.5.4&callback=s_c_il%5B0%5D._setAnalyticsFields&mcorgid=17EB401053DAF4840A490D4C%40AdobeOrg&mid=11964747649712488925387243397778520381",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://sonic.fdp.api.flipkart.com/4/data/collector/business",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36 FKUA/website/42/website/Desktop",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/lazyLoadChunk.3eaac2.css",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/lazyLoadChunk.f1d5d8.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://sonic.fdp.api.flipkart.com/4/data/collector/business",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36 FKUA/website/42/website/Desktop",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/codes.json",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/www/1070/770/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=80",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0d75b34f7d8fbcb3.png?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/64/64/image/ab7e2b022a4587dd.jpg?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/64/64/image/fc40c9436e5aa480.png?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/flap/64/64/image/dff3f7adcf3a90c6.png?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://rukminim2.flixcart.com/fk-p-flap/64/64/image/05d708653beff580.png?q=100",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/async-api.30bd804e-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/860.03a8b7a5-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/session-manager.2a64278a-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://1.sonic.fdp.api.flipkart.com/4/data/collector/business",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36 FKUA/website/42/website/Desktop",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://1.sonic.fdp.api.flipkart.com/4/data/collector/business",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36 FKUA/website/42/website/Desktop",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/lazy-feature-loader.2f55ce66-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/148.1a20d5fe-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/page_view_event-aggregate.06482edd-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/page_view_timing-aggregate.bd6de33a-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/metrics-aggregate.3dc53903-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/jserrors-aggregate.49e41428-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/ajax-aggregate.998ef92b-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/session_trace-aggregate.83105561-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://js-agent.newrelic.com/spa-aggregate.e6b09d52-1.236.0.min.js",
+          "method": "GET",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=4006&ck=0&s=d703576a2a1e3274&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=537&fe=3089&dc=1434&perf=%7B%22timing%22:%7B%22of%22:1739729671904,%22n%22:0,%22f%22:0,%22dn%22:5,%22dne%22:7,%22c%22:7,%22s%22:130,%22ce%22:210,%22rq%22:210,%22rp%22:537,%22rpe%22:988,%22di%22:1274,%22ds%22:1970,%22de%22:1971,%22dc%22:3623,%22l%22:3623,%22le%22:3626%7D,%22navigation%22:%7B%7D%7D&fp=1248&fcp=1248",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "text/plain",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://1.sonic.fdp.api.flipkart.com/4/data/collector/business",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36 FKUA/website/42/website/Desktop",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://bam.nr-data.net/ins/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=4925&ck=0&s=d703576a2a1e3274&ref=https://www.flipkart.com/",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "text/plain",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=4931&ck=0&s=d703576a2a1e3274&ref=https://www.flipkart.com/",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "text/plain",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/HomePageNonCriticalActions.34a904.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/BaseActionNonCritical.482c6b.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/OmnitureLazyChunk.7ce1ba.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/MapiActionNonCriticalActions.f91ecd.js",
+          "method": "GET",
+          "headers": {
+            "origin": "https://www.flipkart.com",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "sec-ch-ua-mobile": "?0"
+          }
+        },
+        {
+          "url": "https://1.sonic.fdp.api.flipkart.com/4/data/collector/business",
+          "method": "POST",
+          "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36 FKUA/website/42/website/Desktop",
+            "referer": "https://www.flipkart.com/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/133.0.6943.16 Safari/537.36",
+            "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"HeadlessChrome\";v=\"133\", \"Chromium\";v=\"133\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          }
+        }
+      ],
+      "performanceResults": {
+        "loadTime": "24130ms"
+      },
+      "securityResults": []
+    }
+  ]
+}

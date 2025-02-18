@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Report</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        canvas {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Testing Report</h1>
+
+    <div class="container">
+        <h3>🔹 Performance Analysis (Page Load Time)</h3>
+        <canvas id="performanceChart"></canvas>
+
+        <h3>🔹 Security Warnings</h3>
+        <div id="securityWarnings"></div>
+
+        <h3>🔹 API Requests</h3>
+        <table border="1" style="width: 100%; margin-top: 10px; text-align: left;">
+            <thead>
+                <tr>
+                    <th>Method</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+            <tbody id="apiRequests"></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Fetch the report.json file and generate visualizations
+        fetch('report.json')
+            .then(response => response.json())
+            .then(data => {
+                const results = data.results[0]; // Assuming single report data
+
+                // Load Time Chart
+                const ctx = document.getElementById('performanceChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ["Page Load Time"],
+                        datasets: [{
+                            label: 'Milliseconds (ms)',
+                            data: [parseInt(results.performanceResults.loadTime)],
+                            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: { y: { beginAtZero: true } }
+                    }
+                });
+
+                // Security Warnings
+                const securityDiv = document.getElementById('securityWarnings');
+                if (results.securityResults.length > 0) {
+                    results.securityResults.forEach(warning => {
+                        let p = document.createElement('p');
+                        p.style.color = 'red';
+                        p.textContent = `⚠️ ${warning.warning} - ${warning.url}`;
+                        securityDiv.appendChild(p);
+                    });
+                } else {
+                    securityDiv.innerHTML = '<p style="color:green">✅ No security issues detected.</p>';
+                }
+
+                // API Requests Table
+                const apiTable = document.getElementById('apiRequests');
+                results.apiResults.forEach(request => {
+                    let row = `<tr><td>${request.method}</td><td>${request.url}</td></tr>`;
+                    apiTable.innerHTML += row;
+                });
+
+            })
+            .catch(error => console.error('Error loading report:', error));
+    </script>
+</body>
+</html>
