@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2025-03-25T05:25:36.680Z",
+    "method": "GET",
+    "url": "https://student.bhc.edu.in//",
+    "request": {
+      "headers": {},
+      "data": {}
+    },
+    "response": {
+      "status": 200,
+      "data": "<!doctype html>\n<html lang=\"en\" ng-app=\"camuPortal\">\n<head>\n  <title>My Camu</title>\n\n  <!-- Meta -->\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" />\n  <meta name=\"description\" content=\"\">\n  <meta name=\"author\" content=\"\">\n\n <!-- vendor combiner css -->\n \n <link rel=\"stylesheet\" href=\"assets/vendornew.min.css?v=13888\">\n\n <!-- MyCamu custom  CSS -->\n <link rel=\"stylesheet\" href=\"assets/css/custom.css?v=13888\">\n <link rel=\"manifest\" href=\"assets/manifest.json\"/>\n<!-- Disable text selection -->\n<style>\n  @media only screen and (max-width: 600px) {\n    body {\n      -webkit-user-select: none;\n      -moz-user-select: none;\n      -ms-user-select: none;\n      user-select: none;\n      -webkit-touch-callout: none;\n    }\n  }\n  .container-box_view_react {\n    height: 100vw;\n    width: 100vw;\n    padding:0px;\n  }\n</style>\n</head>\n<body ng-class=\"getBodyClass()\" ng-controller=\"indexctrl\" data-ng-init=\"initTemp()\" id=\"main_page\" name=\"main_page\" >\n\n\n  <!--=== Style Switcher ===-->\n\n  <!--<i class=\"style-switcher-btn fa fa-cogs hidden-xs\"></i>-->\n  <!--<div class=\"style-switcher animated fadeInRight\">-->\n  <!--<div class=\"theme-close\"><i class=\"icon-close\"></i></div>-->\n  <!--<div class=\"theme-heading\">Theme Colors</div>-->\n  <!--<ul class=\"list-unstyled\">-->\n  <!--<li class=\"theme-default theme-active\" data-style=\"default\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-blue\" data-style=\"blue\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-orange\" data-style=\"orange\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-red\" data-style=\"red\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-light last\" data-style=\"light\" data-header=\"light\"></li>-->\n\n  <!--<li class=\"theme-purple\" data-style=\"purple\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-aqua\" data-style=\"aqua\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-brown\" data-style=\"brown\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-dark-blue\" data-style=\"dark-blue\" data-header=\"light\"></li>-->\n  <!--<li class=\"theme-light-green last\" data-style=\"light-green\" data-header=\"light\"></li>-->\n  <!--</ul>-->\n  <!--<div style=\"margin-bottom:18px;\"></div>-->\n  <!--<div class=\"theme-heading\">Layouts</div>-->\n  <!--<div class=\"text-center\">-->\n  <!--<a href=\"javascript:void(0);\" class=\"btn-u btn-u-green btn-block active-switcher-btn wide-layout-btn\">Wide</a>-->\n  <!--<a href=\"#\" class=\"btn-u btn-u-green btn-block boxed-layout-btn\">Boxed</a>-->\n  <!--</div>-->\n  <!--</div>&lt;!&ndash;/style-switcher&ndash;&gt;-->\n  <!--&lt;!&ndash;=== End Style Switcher ===&ndash;&gt;  -->\n\n  <div class=\"wrapper\">\n   <div class=\"header\" ng-show=\"!$parent.isFromReact\">      \n    <div ui-view=\"menu\"></div>\n  </div>\n  <!-- <div ui-view></div> -->\n  <div ui-view=\"content\"></div>\n  <div ui-view=\"footer\" ng-show=\"!$parent.isFromReact\"></div>\n\n  <!--=== Copyright ===-->\n    <!-- <div class=\"copyright\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-6\">                     \n                    <p>\n                        2014 &copy; Octoze Technologies. All Rights Reserved.\n                        <a href=\"#\">Privacy Policy</a> | <a href=\"#\">Terms of Service</a>\n                    </p>\n                </div>\n                <div class=\"col-md-6\">  \n                   \n                </div>\n            </div>\n        </div> \n      </div> --><!--/copyright--> \n    </div>\n\n\n  </body>\n  </html>\n<script type=\"text/javascript\" src=\"assets/vendor.min.js?v=13888\"></script>\n<script type=\"text/javascript\" src=\"assets/js/xss-filters.min.js?v=4293847\"></script>\n<script src=\"https://sdk.amazonaws.com/js/aws-sdk-2.279.1.min.js\"></script>\n<script src=\"/app/app.min.js?v=13888\"></script>\n \n <script src='app/combined.min.js?v=13888'></script>\n<!-- The core Firebase JS SDK is always required and must be listed first -->\n<script src=\"https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js\"></script>\n\n<!-- TODO: Add SDKs for Firebase products that you want to use\n     https://firebase.google.com/docs/web/setup#available-libraries -->\n<script src=\"https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js\"></script>\n\n\n\n<script src=\"assets/myCamu-ChatBot-widget/index.umd.js\" defer></script>\n<script>\n  window.addEventListener(\"load\", () => {\n    var widgetUrl = `${window.location.origin}/camu_nlp`;\n    // \"http://65.0.190.60:8080/ai\"\n    window.myCamuChatWidget.config.url = widgetUrl;\n    window.myCamuChatWidget.config.widgetTitle = 'Camu Assistant';\n    window.myCamuChatWidget.config.inputPlaceHolder = 'Ask me anything';\n    window.myCamuChatWidget.config.openOnLoad = false;\n    window.myCamuChatWidget.config.closeOnOutsideClick = false;\n    window.myCamuChatWidget.config.isAngular = true;\n  });\n</script>\n\n<script>\n  if (\"serviceWorker\" in navigator) {\n    // register service worker\n    navigator.serviceWorker.register(\"/assets/js/service-worker.js\");\n  }\n</script>"
+    },
+    "duration": 633
+  },
+  {
+    "timestamp": "2025-03-25T05:25:37.314Z",
+    "method": "GET",
+    "url": "https://student.bhc.edu.in//api/data",
+    "request": {
+      "headers": {},
+      "data": {}
+    },
+    "response": {
+      "status": 404,
+      "error": "Request failed with status code 404"
+    },
+    "duration": 73
+  }
+]

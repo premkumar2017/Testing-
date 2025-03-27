@@ -3,94 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing Report</title>
+    <title>Website Testing Report</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
         }
-        canvas {
-            max-width: 600px;
-            margin: 20px auto;
+        .score-good {
+            color: #10B981;
         }
-        .container {
-            width: 80%;
-            margin: auto;
+        .score-medium {
+            color: #F59E0B;
+        }
+        .score-poor {
+            color: #EF4444;
         }
     </style>
 </head>
-<body>
-    <h1>Website Testing Report</h1>
+<body class="bg-gray-50 p-6">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="text-3xl font-bold text-gray-800 mb-2">Website Testing Report</h1>
+        <p class="text-gray-600 mb-6">Generated on <span id="report-date"></span></p>
 
-    <div class="container">
-        <h3>🔹 Performance Analysis (Page Load Time)</h3>
-        <canvas id="performanceChart"></canvas>
+        <!-- Summary Card -->
+        <div class="card">
+            <h2 class="text-xl font-semibold mb-4 text-blue-600">🔍 AI Summary</h2>
+            <div id="ai-summary" class="text-gray-700">
+                Loading summary...
+            </div>
+        </div>
 
-        <h3>🔹 Security Warnings</h3>
-        <div id="securityWarnings"></div>
+        <!-- Performance Metrics -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Lighthouse Scores -->
+            <div class="card">
+                <h2 class="text-xl font-semibold mb-4 text-blue-600">🏆 Lighthouse Scores</h2>
+                <canvas id="lighthouseChart" height="250"></canvas>
+                <div class="mt-4 grid grid-cols-2 gap-4" id="lighthouse-scores">
+                    <!-- Scores will be inserted here -->
+                </div>
+            </div>
 
-        <h3>🔹 API Requests</h3>
-        <table border="1" style="width: 100%; margin-top: 10px; text-align: left;">
-            <thead>
-                <tr>
-                    <th>Method</th>
-                    <th>URL</th>
-                </tr>
-            </thead>
-            <tbody id="apiRequests"></tbody>
-        </table>
+            <!-- Element Counts -->
+            <div class="card">
+                <h2 class="text-xl font-semibold mb-4 text-blue-600">📊 Page Elements</h2>
+                <canvas id="elementsChart" height="250"></canvas>
+                <div class="mt-4 grid grid-cols-2 gap-4" id="element-counts">
+                    <!-- Counts will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Security Analysis -->
+        <div class="card mt-6">
+            <h2 class="text-xl font-semibold mb-4 text-blue-600">🔒 Security Analysis</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="security-results">
+                <!-- Security results will be inserted here -->
+            </div>
+        </div>
+
+        <!-- API Requests -->
+        <div class="card mt-6">
+            <h2 class="text-xl font-semibold mb-4 text-blue-600">🌐 API Requests</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white">
+                    <thead>
+                        <tr class="bg-blue-50">
+                            <th class="py-2 px-4 border-b text-left">Method</th>
+                            <th class="py-2 px-4 border-b text-left">URL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="api-requests">
+                        <tr><td colspan="2">Loading API requests...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Responsive Screenshots -->
+        <div class="card mt-6">
+            <h2 class="text-xl font-semibold mb-4 text-blue-600">📱 Responsive Screenshots</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="screenshots">
+                <!-- Screenshots will be inserted here -->
+            </div>
+        </div>
     </div>
 
     <script>
-        // Fetch the report.json file and generate visualizations
-        fetch('report.json')
+        // Helper function to format scores
+        function formatScore(score) {
+            if (score >= 90) return `<span class="score-good">${score}% (Excellent)</span>`;
+            if (score >= 50) return `<span class="score-medium">${score}% (Good)</span>`;
+            return `<span class="score-poor">${score}% (Poor)</span>`;
+        }
+
+        // Helper function to format security results
+        function formatSecurityResult(result) {
+            if (result.includes('Vulnerable') || result.includes('failed')) {
+                return `<span class="score-poor">❌ ${result}</span>`;
+            }
+            return `<span class="score-good">✅ ${result}</span>`;
+        }
+
+        // Fetch and display the report
+        fetch('performance_report.json')
             .then(response => response.json())
             .then(data => {
-                const results = data.results[0]; // Assuming single report data
+                const report = data.results[0];
+                const timestamp = new Date(report.timestamp);
+                
+                // Set report date
+                document.getElementById('report-date').textContent = timestamp.toLocaleString();
 
-                // Load Time Chart
-                const ctx = document.getElementById('performanceChart').getContext('2d');
-                new Chart(ctx, {
+                // AI Summary
+                document.getElementById('ai-summary').innerHTML = `
+                    <p>Performance: ${formatScore(report.lighthouseResults.performance)}</p>
+                    <p>Accessibility: ${formatScore(report.lighthouseResults.accessibility)}</p>
+                    <p>Best Practices: ${formatScore(report.lighthouseResults.bestPractices)}</p>
+                    <p>SEO: ${formatScore(report.lighthouseResults.seo)}</p>
+                `;
+
+                // Lighthouse Chart
+                const lighthouseCtx = document.getElementById('lighthouseChart').getContext('2d');
+                new Chart(lighthouseCtx, {
                     type: 'bar',
                     data: {
-                        labels: ["Page Load Time"],
+                        labels: ['Performance', 'Accessibility', 'Best Practices', 'SEO'],
                         datasets: [{
-                            label: 'Milliseconds (ms)',
-                            data: [parseInt(results.performanceResults.loadTime)],
-                            backgroundColor: 'rgba(75, 192, 192, 0.5)',
-                            borderColor: 'rgba(75, 192, 192, 1)',
+                            label: 'Score (%)',
+                            data: [
+                                report.lighthouseResults.performance,
+                                report.lighthouseResults.accessibility,
+                                report.lighthouseResults.bestPractices,
+                                report.lighthouseResults.seo
+                            ],
+                            backgroundColor: [
+                                'rgba(239, 68, 68, 0.7)',
+                                'rgba(59, 130, 246, 0.7)',
+                                'rgba(245, 158, 11, 0.7)',
+                                'rgba(16, 185, 129, 0.7)'
+                            ],
+                            borderColor: [
+                                'rgba(239, 68, 68, 1)',
+                                'rgba(59, 130, 246, 1)',
+                                'rgba(245, 158, 11, 1)',
+                                'rgba(16, 185, 129, 1)'
+                            ],
                             borderWidth: 1
                         }]
                     },
                     options: {
                         responsive: true,
-                        scales: { y: { beginAtZero: true } }
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                max: 100
+                            }
+                        }
                     }
                 });
 
-                // Security Warnings
-                const securityDiv = document.getElementById('securityWarnings');
-                if (results.securityResults.length > 0) {
-                    results.securityResults.forEach(warning => {
-                        let p = document.createElement('p');
-                        p.style.color = 'red';
-                        p.textContent = `⚠️ ${warning.warning} - ${warning.url}`;
-                        securityDiv.appendChild(p);
-                    });
-                } else {
-                    securityDiv.innerHTML = '<p style="color:green">✅ No security issues detected.</p>';
-                }
-
-                // API Requests Table
-                const apiTable = document.getElementById('apiRequests');
-                results.apiResults.forEach(request => {
-                    let row = `<tr><td>${request.method}</td><td>${request.url}</td></tr>`;
-                    apiTable.innerHTML += row;
+                // Elements Chart
+                const elementsCtx = document.getElementById('elementsChart').getContext('2d');
+                new Chart(elementsCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Forms', 'Buttons', 'Links', 'Images'],
+                        datasets: [{
+                            data: [
+                                report.elements.forms,
+                                report.elements.buttons,
+                                report.elements.links,
+                                report.elements.images
+                            ],
+                            backgroundColor: [
+                                'rgba(99, 102, 241, 0.7)',
+                                'rgba(244, 63, 94, 0.7)',
+                                'rgba(20, 184, 166, 0.7)',
+                                'rgba(245, 158, 11, 0.7)'
+                            ],
+                            borderWidth: 1
+                        }]
+                    }
                 });
 
+                // Security Results
+                const securityContainer = document.getElementById('security-results');
+                securityContainer.innerHTML = `
+                    <div class="p-4 border rounded-lg">
+                        <h3 class="font-medium">SQL Injection</h3>
+                        <p>${formatSecurityResult(report.securityResults.sqlInjection)}</p>
+                    </div>
+                    <div class="p-4 border rounded-lg">
+                        <h3 class="font-medium">XSS Protection</h3>
+                        <p>${formatSecurityResult(report.securityResults.xss)}</p>
+                    </div>
+                    <div class="p-4 border rounded-lg">
+                        <h3 class="font-medium">Authentication</h3>
+                        <p>${formatSecurityResult(report.securityResults.authentication)}</p>
+                    </div>
+                    <div class="p-4 border rounded-lg">
+                        <h3 class="font-medium">Data Encryption</h3>
+                        <p>${formatSecurityResult(report.securityResults.dataEncryption)}</p>
+                    </div>
+                `;
+
+                // Screenshots
+                const screenshotsContainer = document.getElementById('screenshots');
+                screenshotsContainer.innerHTML = `
+                    <div class="text-center">
+                        <h3 class="font-medium">Mobile</h3>
+                        <img src="screenshot-Mobile.png" alt="Mobile screenshot" class="w-full border rounded">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-medium">Tablet</h3>
+                        <img src="screenshot-Tablet.png" alt="Tablet screenshot" class="w-full border rounded">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-medium">Desktop</h3>
+                        <img src="screenshot-Desktop.png" alt="Desktop screenshot" class="w-full border rounded">
+                    </div>
+                `;
             })
-            .catch(error => console.error('Error loading report:', error));
+            .catch(error => {
+                console.error('Error loading report:', error);
+                document.getElementById('ai-summary').innerHTML = `
+                    <p class="text-red-500">Failed to load report. Please check:</p>
+                    <ol class="list-decimal pl-5 mt-2">
+                        <li>The report.json file exists</li>
+                        <li>The file contains valid JSON data</li>
+                        <li>Check browser console for details</li>
+                    </ol>
+                `;
+            });
     </script>
 </body>
 </html>
